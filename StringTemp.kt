@@ -1,5 +1,5 @@
 fun main() {
-    strTemplate()
+//    strTemplate()
     example()
 }
 
