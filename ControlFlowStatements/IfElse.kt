@@ -1,5 +1,11 @@
 package ControlFlowStatements
 
+
+fun shortConditional () {
+    val value = true
+    if (value) "Hi" else "Hello"
+}
+
 fun main () {
    val number1 = 1
 
@@ -9,4 +15,6 @@ fun main () {
         println(number1 > 5)
     }
 
+
+    println(shortConditional())
 }
