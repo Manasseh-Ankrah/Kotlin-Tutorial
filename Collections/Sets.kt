@@ -28,6 +28,7 @@ private fun mutableSets () {
 
     println("Lists =>> $sets")
     sets.add("Wrestling")
+    sets.remove("Basketball")
     println("arraySize =>> $arraySize")
     println("first =>> $first")
     println("count =>> $count")
