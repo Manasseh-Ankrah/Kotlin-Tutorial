@@ -1,4 +1,4 @@
-
+package Functions
 
 //Parameters
 fun greetings (greet: String,statement: String): String {
@@ -7,7 +7,7 @@ fun greetings (greet: String,statement: String): String {
 }
 
 
-fun calculate (num1: Int, num2: Int): Number {
+fun calculate (num1: Int, num2: Int): Int {
     return num1 + num2
 }
 
