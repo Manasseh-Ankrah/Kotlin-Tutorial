@@ -2,7 +2,7 @@ package Collections
 
 
 
- fun immutableList () {
+private fun immutableList () {
      val lists = listOf<String>("Rugby","Basketball","Soccer","Cricket")
      var arraySize= lists.size
      var first= lists.get(0)
@@ -19,7 +19,7 @@ package Collections
 
 
 
-fun mutableList () {
+private fun mutableList () {
     val lists = mutableListOf<String>("Rugby","Basketball","Soccer","Cricket")
     var arraySize= lists.size
     var first= lists.get(0)
